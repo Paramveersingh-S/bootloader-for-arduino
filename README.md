@@ -1,7 +1,5 @@
 ```markdown
 # Secure Bootloader for Arduino Boards
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
-[![PlatformIO](https://img.shields.io/badge/PlatformIO-Compatible-brightgreen)](https://platformio.org/)
 
 A secure bootloader implementation for **Arduino boards** that enforces firmware integrity checks and memory isolation using custom linker scripts. Designed for embedded systems security, this project is ideal for academic/research applications at institutions like **SCL, IITs, or CSIR labs**.
 
