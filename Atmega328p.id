@@ -1,0 +1,9 @@
+MEMORY {  
+  BOOTLOADER (rx) : ORIGIN = 0x7E00, LENGTH = 512  /* 512-byte bootloader */  
+  APP (rx)        : ORIGIN = 0x7000, LENGTH = 28K  /* Application */  
+}  
+
+SECTIONS {  
+  .bootloader : { *(.bootloader*) } > BOOTLOADER  
+  .app        : { *(.app*) } > APP  
+}  
